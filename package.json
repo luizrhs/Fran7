@@ -1,0 +1,23 @@
+{
+	"name"        : "fran7",
+	"version"     : "0.0.1",
+	"main"        : "lib/fran7.js",
+	"preferGlobal": false,
+	"author"      : "Paulo Vasconcellos <esin.luiz@gmail.com>",
+	"description" : "Wrapper around ExpressJS and Mongoose",
+	"license"     : "MIT",
+
+	"scripts": {
+		"test": "node_modules/.bin/jasmine-node tests/ --autotest --color --coffee"
+	},
+
+	"dependencies": {
+		"express"   : "*",
+		"underscore": "*",
+		"mongoose"  : "*"
+	},
+
+	"devDependencies": {
+		"jasmine-node": "*"
+	}
+}
